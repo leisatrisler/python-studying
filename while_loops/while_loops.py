@@ -8,3 +8,8 @@ i = 1
 while i <= 10:
     print(i * '*')
     i = i + 1
+# Either of these work line 10 and 15 are the same
+i = 1
+while i <= 10:
+    print(i * '*')
+    i += 1
